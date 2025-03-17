@@ -1,0 +1,73 @@
+body{
+    background-color: burlywood;
+    font-family: "Roboto", sans-serif;
+}
+.signup{
+    width:360px;
+    height: 950px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+.titlebox{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    padding-top: 15px;
+
+}
+form{
+    width:300px;
+    margin-left: 20px;
+    position: absolute;
+}
+form label{
+    display:flex;
+    margin-top:10px;
+    font-size:15px;
+}
+form input{
+    width:100%;
+    padding: 5px;
+    border: none;
+    border: 1px solid gray;
+}
+input[type=submit]{
+    width:320px;
+    height:35px;
+    margin-top: 20px;
+    border:none;
+    background-color: lightblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    column-gap: 20px;
+}
+.gameselect{
+    text-align: Center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: lightblue;
+    width:calc(50%-24px);
+    border:1px solid black;
+    border-spacing: 5px;
+    float:left;
+
+
+}
+.gameselect2{
+    text-align: Center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: lightblue;
+    width:calc(50%-24px);
+    border:1px solid black;
+    border-spacing: 5px;
+    float:right;
+
+}
